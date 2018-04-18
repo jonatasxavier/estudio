@@ -1,0 +1,42 @@
+body{
+	background: url("assets/images/homebg.jpg") 0px 79px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+   	margin: 0;
+}
+header{
+	width: 100%;
+}
+.nav__header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav__header div{
+	padding-top: 15px;
+}
+.img__header{
+	padding-left: 180px;
+}
+.caixa__item{
+	padding-left: 100px;
+}
+.item{ 
+    padding: 14px 14px;
+	text-decoration: none;
+    color: #000;
+}
+.item:hover{	
+	color: #82CA9C;
+}
+.submit{
+	padding-right: 50px;
+}
+.botão__header{
+	width: 128px;
+	height: 48px;
+	border-radius: 50px;
+	border: 2px solid #82CA9C;
+	color: #82CA9C;
+	background: #fff; 
+}	
